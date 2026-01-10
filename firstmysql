@@ -1,0 +1,32 @@
+create DATABASE db;
+USE db; 
+CREATE TABLE students (
+    id  INT (10),
+    name VARCHAR(50),
+    age INT,
+    email VARCHAR(100)
+);
+-- INSERT INTO students(id,name,age,email) VALUES(1101,'Tejas',12,'tj@gmail.com');
+
+-- INSERT INTO students(id,name,age,email) VALUES(1102,'Tanus',10,'ts@gmail.com');
+-- INSERT INTO students(id,name,age,email) VALUES(1103,'parv',12,'pv@gmail.com');
+-- INSERT INTO students(id,name,age,email) VALUES(1104,'Tarun',19,'tn@gmail.com');
+-- INSERT INTO students(id,name,age,email) VALUES(1105,'janvi',8,'jj@gmail.com');
+-- INSERT INTO students(id,name,age,email) VALUES(1106,'Rohit',32,'rs123@gmail.com');
+-- INSERT INTO students(id,name,age,email) VALUES(110,'bvsahu',12,'bvasahu@gmail.com');
+-- select*from students where name='parv' or name='rohit';
+-- UPDATE students
+-- SET age = 33
+-- WHERE id = 1106;
+-- alter table students add  mark int(10) ;
+-- update students set mark=100 where id=1106;
+-- select*from students;
+-- delete from students where id=1106;
+-- select*from students;
+
+INSERT INTO students(id,name,age,email) VALUES(1107,'parv',12,'pv@gmail.com');
+select distinct name from students;
+-- desc students;
+select name from students;
+select age from students;
+

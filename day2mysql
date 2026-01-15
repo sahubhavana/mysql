@@ -1,0 +1,28 @@
+select*from student;
+-- select*from student where age>18 and age<23;
+-- select*from student where department='CSE';
+-- select *from student where age>21;
+-- select name from student where city='Delhi';
+-- select*from student where marks>80;
+-- select*from student where department='CSE' and city='Delhi';
+-- select name from student where city='Bhopal' or city='Indore';
+-- select name from student where marks>75 and department='ME';
+-- select name from student where gender='Male' and year_of_study=3;
+-- select name from student where city='Delhi' and marks>60;
+-- select name from student where  NOT city='Delhi';
+-- select name from student where gender='Female' and not department='CSE';
+-- select name ,marks from student where marks between 70 and 85;
+-- select name ,age from student where age between 18 and 20;
+-- select name ,year_of_study from student where year_of_study  between 2 and 4;
+-- select name ,marks from student where marks between 80 and 90;
+-- select name ,age from student where  NOT age between 19 and 22;
+-- select name ,department from student where department='CSE' or department='ECE' or department='ME';
+-- select name ,city from student where city='Jaipur' or city='Bhopal' or city='Mumbai';
+-- select name ,year_of_study from student where year_of_study between 1 and 3;
+-- select name from student where marks IN(60,65,70,75);
+-- select name from student where name like  'A%';
+-- select name from student where email like '%@gmail.com';
+-- select name from student where email like '%sh%';
+
+
+

@@ -1,0 +1,65 @@
+SHOW DATABASES;
+-- CREATE DATABASE COLLEGE;
+-- USE COLLEGE;
+-- CREATE TABLE STUDENTS( ID INT,NAME VARCHAR(50),AGE INT);
+CREATE DATABASE LIBARYDB;
+USE LIBARYDB;
+-- -- CREATE TABLE BOOKS(BOOK_ID INT(10),TITLE VARCHAR(100),AUTHOR VARCHAR(50),PRICE FLOAT(10));
+-- -- CREATE TABLE MEMBERS(MEMEBER_ID INT(10),MEMEBER_NAME VARCHAR(100),JOIN_DATE date);
+-- -- CREATE TABLE EMPLOYEES(EMP_ID INT(10),EMP_NAME VARCHAR(100),SALARY INT,DEPARTMENT VARCHAR (20));
+-- -- CREATE TABLE COURSE(COURSE_ID INT(10),COURSE_NAME VARCHAR(100),PRICE INT (50));
+-- -- SHOW TABLES;
+-- -- DROP TABLE MEMBERS;
+-- -- SHOW TABLES;
+-- -- INSERT INTO BOOKS VALUES(101,'CHAMPAK','SDPROF',500);
+-- -- INSERT INTO BOOKS VALUES(102,'TWINKLE','SDNAYAK',60);
+-- -- INSERT INTO BOOKS VALUES(103,'PANCHTATRA','AROROS',900);
+-- -- INSERT INTO BOOKS VALUES(104,'PYTHON','SUNITA ARORA',1000);
+-- -- INSERT INTO BOOKS VALUES(105,'C++','PREETE ARORA',550);
+-- -- SELECT*FROM BOOKS;
+-- -- DROP TABLE BOOKS;
+-- Create Student table
+-- CREATE TABLE student (
+--     student_id INT PRIMARY KEY,
+--     name VARCHAR(50),
+--     age INT,
+--     gender VARCHAR(10),
+--     department VARCHAR(30),
+--     year_of_study INT,
+--     city VARCHAR(30),
+--     marks INT,
+--     email VARCHAR(100)
+-- )
+-- desc student;
+
+-- INSERT INTO student VALUES
+-- (1, 'Amit Sharma', 18, 'Male', 'CSE', 1, 'Delhi', 78, 'amit1@gmail.com'),
+-- (2, 'Neha Verma', 19, 'Female', 'CSE', 1, 'Delhi', 85, 'neha2@gmail.com'),
+-- (3, 'Rohit Singh', 20, 'Male', 'ECE', 2, 'Bhopal', 67, 'rohit3@gmail.com'),
+-- (4, 'Pooja Patel', 21, 'Female', 'ECE', 2, 'Indore', 72, 'pooja4@gmail.com'),
+-- (5, 'Rahul Mehta', 22, 'Male', 'ME', 3, 'Mumbai', 81, 'rahul5@gmail.com'),
+-- (6, 'Anjali Jain', 20, 'Female', 'CSE', 2, 'Jaipur', 90, 'anjali6@gmail.com'),
+-- (7, 'Vikas Gupta', 23, 'Male', 'ME', 4, 'Delhi', 60, 'vikas7@gmail.com'),
+-- (8, 'Sneha Kapoor', 19, 'Female', 'CE', 1, 'Chandigarh', 88, 'sneha8@gmail.com'),
+-- (9, 'Karan Malhotra', 21, 'Male', 'CSE', 3, 'Noida', 74, 'karan9@gmail.com'),
+-- (10, 'Ritu Saxena', 22, 'Female', 'CE', 3, 'Bhopal', 69, 'ritu10@gmail.com'),
+-- (11, 'Deepak Yadav', 18, 'Male', 'ECE', 1, 'Agra', 55, 'deepak11@gmail.com'),
+-- (12, 'Nidhi Arora', 20, 'Female', 'CSE', 2, 'Delhi', 92, 'nidhi12@gmail.com'),
+-- (13, 'Saurabh Mishra', 21, 'Male', 'ME', 3, 'Prayagraj', 76, 'saurabh13@gmail.com'),
+-- (14, 'Kavita Singh', 23, 'Female', 'CE', 4, 'Patna', 83, 'kavita14@gmail.com'),
+-- (15, 'Manish Tiwari', 24, 'Male', 'ECE', 4, 'Kanpur', 65, 'manish15@gmail.com'),
+-- (16, 'Riya Choudhary', 19, 'Female', 'CSE', 1, 'Gurgaon', 89, 'riya16@gmail.com'),
+-- (17, 'Arjun Rao', 22, 'Male', 'ME', 3, 'Hyderabad', 71, 'arjun17@gmail.com'),
+-- (18, 'Simran Kaur', 21, 'Female', 'CE', 2, 'Amritsar', 84, 'simran18@gmail.com'),
+-- (19, 'Abhishek Dubey', 20, 'Male', 'CSE', 2, 'Rewa', 58, 'abhishek19@gmail.com'),
+-- (20, 'Priya Nair', 23, 'Female', 'ECE', 4, 'Kochi', 91, 'priya20@gmail.com'),
+-- (21, 'Mohit Bansal', 18, 'Male', 'CE', 1, 'Delhi', 62, 'mohit21@gmail.com'),
+-- (22, 'Ayesha Khan', 22, 'Female', 'CSE', 3, 'Lucknow', 86, 'ayesha22@gmail.com'),
+-- (23, 'Harsh Vardhan', 21, 'Male', 'ME', 2, 'Ranchi', 73, 'harsh23@gmail.com'),
+-- (24, 'Isha Malviya', 20, 'Female', 'ECE', 2, 'Ujjain', 79, 'isha24@gmail.com'),
+-- (25, 'Nitin Rawat', 24, 'Male', 'CE', 4, 'Dehradun', 68, 'nitin25@gmail.com'),
+-- (26, 'Payal Joshi', 19, 'Female', 'CSE', 1, 'Pune', 87, 'payal26@gmail.com'),
+-- (27, 'Siddharth Sen', 22, 'Male', 'ECE', 3, 'Kolkata', 75, 'siddharth27@gmail.com'),
+-- (28, 'Meena Kumari', 21, 'Female', 'ME', 3, 'Gaya', 64, 'meena28@gmail.com'),
+-- (29, 'Yash Agarwal', 20, 'Male', 'CSE', 2, 'Mathura', 93, 'yash29@gmail.com'),
+-- (30, 'Tanvi Deshpande', 23, 'Female', 'CE', 4, 'Nagpur', 82, 'tanvi30@gmail.com');

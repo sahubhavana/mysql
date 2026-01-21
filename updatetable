@@ -1,0 +1,23 @@
+use libarydb;
+SET SQL_SAFE_UPDATES=0;
+-- update  student set marks=marks+5 where marks>75;
+-- select *from student;
+-- delete from student where student_id>30;
+-- select *from student;
+-- update student set gender=NULL where student_id=19;
+-- update student set marks=NULL , age=NULL where city="Delhi" and department="CSE";
+-- select*from student;
+-- insert into student (student_id ,name ,age,department,marks) values(90,"XYZ",28,"AIML",7);
+-- select*from student 
+-- select count(distinct(department))  from student;
+-- select sum(marks) from student;
+-- select avg(marks) from student;
+-- select max(age) from student
+-- select min(age) from student;
+-- select city ,count(*) from student group by city;
+-- select count(* ) from student where name like "%sh%";
+-- update student set age=NULL,marks=NULL  where student_id>27; 
+-- select gender ,avg(marks) from student group by gender;
+-- select city ,count(name) from student group by city;    
+
+
